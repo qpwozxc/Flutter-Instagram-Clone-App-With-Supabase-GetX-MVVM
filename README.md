@@ -19,7 +19,7 @@ A Flutter app that clones some features of Instagram using the GetX state manage
 
 ## Screenshots
 
-(Include screenshots or GIFs of your app in action)
+
 
 ## Getting Started
 
