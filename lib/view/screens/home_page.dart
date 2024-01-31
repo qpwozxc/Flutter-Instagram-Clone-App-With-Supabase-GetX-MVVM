@@ -1,4 +1,7 @@
+import 'package:clone_app/view/widgets/post_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,18 +16,23 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.camera_alt_outlined),
-        title: Text('Instagram'),
+        title: SvgPicture.asset(
+          'images/instagram-logo.svg',
+          width: 105.w,
+        ),
         actions: [
           Icon(Icons.send),
         ],
       ),
       body: Container(
         width: double.infinity,
-        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text('Home Page'),
+          children: [
+            Container(
+              height: 98.h,
+              color: Colors.red,
+            ),
+            PostWidget(),
           ],
         ),
       ),

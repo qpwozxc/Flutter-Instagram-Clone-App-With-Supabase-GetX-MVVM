@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:clone_app/view/add_page.dart';
-import 'package:clone_app/view/account_page.dart';
-import 'package:clone_app/view/home_page.dart';
-import 'package:clone_app/view/like_page.dart';
-import 'package:clone_app/view/search_page.dart';
+import 'package:clone_app/view/screens/add_page.dart';
+import 'package:clone_app/view/screens/account_page.dart';
+import 'package:clone_app/view/screens/home_page.dart';
+import 'package:clone_app/view/screens/like_page.dart';
+import 'package:clone_app/view/screens/search_page.dart';
 
-class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+class MainPage extends StatefulWidget {
+  const MainPage({super.key});
 
   @override
-  State<MainScreen> createState() => _MainScreenState();
+  State<MainPage> createState() => _MainPageState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
   void _onItemTapped(int index) {
     setState(() {
