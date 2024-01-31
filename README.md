@@ -1,17 +1,38 @@
-# clone_app
+# Instagram Clone App
 
-A new Flutter project.
+A Flutter app that clones some features of Instagram using the GetX state management and MVVM architecture.
+
+## Features
+
+- [ ] User Authentication
+- [ ] Feed with Posts
+- [ ] User Profile
+- [ ] Like, Comment, and Share Posts
+- [ ] Stories
+- [ ] Direct Messages
+
+## Technologies Used
+
+- Flutter
+- GetX State Management
+- Supabase (or your chosen backend service for authentication and data storage)
+
+## Screenshots
+
+(Include screenshots or GIFs of your app in action)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Your favorite IDE (VS Code recommended)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# instagram-clone-app
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/instagram-clone.git
+   cd instagram-clone
