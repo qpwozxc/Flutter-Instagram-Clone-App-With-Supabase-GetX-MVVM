@@ -1,4 +1,4 @@
-import 'package:clone_app/view/screens/s_main.dart';
+import 'package:clone_app/view/screens/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -18,7 +18,7 @@ class LoginViewModel extends GetxController {
         email: _idController.text,
         password: _passwordController.text,
       );
-      Get.to(MainScreen()); // 로그인 성공시 홈 화면으로 이동
+      Get.to(MainPage()); // 로그인 성공시 홈 화면으로 이동
     } on AuthException catch (error) {
       // 에러 발생시
       Get.snackbar(
