@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:clone_app/view/s_add_page.dart';
-import 'package:clone_app/view/s_account_page.dart';
-import 'package:clone_app/view/s_home_page.dart';
-import 'package:clone_app/view/s_like_page.dart';
-import 'package:clone_app/view/s_search_page.dart';
+import 'package:clone_app/view/add_page.dart';
+import 'package:clone_app/view/account_page.dart';
+import 'package:clone_app/view/home_page.dart';
+import 'package:clone_app/view/like_page.dart';
+import 'package:clone_app/view/search_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
